@@ -1,5 +1,5 @@
 const str1 = "hello";
-const str2 = "lllho";
+const str2 = "lelho";
 
 function checkanagram(string1, string2) {
   let counter = {};
@@ -8,7 +8,8 @@ function checkanagram(string1, string2) {
   }
   for (const item of string1) {
     counter[item] = (counter[item] || 0) + 1;
-    // this will create map  
+    // this will create map
+    console.log(counter)  
   }
   console.log(counter);
   for (const items of string2) {
