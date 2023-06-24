@@ -10,4 +10,4 @@ function binarrySearch(array, input) {
 
 console.log(binarrySearch(arr,6));
 let d=9/2
-console.log(d.toFixed())
+console.log(d.toFixed()) 
