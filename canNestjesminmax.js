@@ -1,3 +1,10 @@
+/**
+ * The function `canNest` checks if the elements of `arr1` can be nested inside the elements of `arr2`
+ * by comparing the minimum and maximum values of each array.
+ * @param arr1 - [9, 9, 8]
+ * @param arr2 - [8, 9]
+ * @returns The function `canNest` is returning a boolean value.
+ */
 function canNest(arr1, arr2) {
     let arr1min = arr1[0];
     let arr1max = arr1[0];

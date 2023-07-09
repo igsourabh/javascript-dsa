@@ -1,3 +1,5 @@
+/* The code defines a function called `rotate` that takes in a matrix as an argument. The function
+rotates the matrix 90 degrees clockwise and returns the rotated matrix. */
 const str1 = "hello";
 const str2 = "lelho";
 

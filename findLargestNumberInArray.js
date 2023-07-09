@@ -1,3 +1,9 @@
+/**
+ * The function `findLargestNumber` takes an array of numbers and returns the largest number in the
+ * array.
+ * @param array - The array parameter is an array of numbers: [1, 3, 4, 2, 5, 11, 6, 2, 10, 9].
+ * @returns The largest number in the array, which is 11.
+ */
 let arr = [1, 3, 4, 2, 5, 11, 6, 2, 10, 9];
 
 //  1<3 true temp=3

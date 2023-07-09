@@ -14,5 +14,8 @@ var isPalindrome = function (x) {
     }
   };
   
+  /* The line `console.log(isPalindrome(-121));` is calling the `isPalindrome` function and passing
+  `-121` as an argument. It then logs the result of the function to the console. In this case, it
+  will log `true` because `-121` is a palindrome. */
   console.log(isPalindrome(-121));
   

@@ -1,3 +1,4 @@
+/* The code is defining a function called `exist` that takes in two parameters: `board` and `word`. */
 var exist = function (board, word) {
     let map = {};
     for (let index = 0; index < board.length; index++) {
