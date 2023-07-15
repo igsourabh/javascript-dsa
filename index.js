@@ -1,18 +1,22 @@
-/**
- * The function `findMissingOddNumber` takes an array of odd numbers and returns the missing odd number
- * in the sequence.
- * @param array - The `array` parameter is an array of numbers.
- * @returns The missing odd number in the array is being returned.
- */
-function findMissingOddNumber(array) {
-  for (let index = 1; index < array.length; index++) {
-    const element = array[index];
-    const prevelement = array[index - 1];
-    if (prevelement !== element - 2) {
-      console.log();
-      return element - 2;
+function wordBreak(s, wordDict) {
+  const dp = new Array(s.length + 1).fill(false);
+  dp[0] = true;
+console.log(object);
+  for (let i = 1; i <= s.length; i++) {
+    for (let j = 0; j < i; j++) {
+      const word = s.slice(j, i);
+      if (dp[j] && wordDict.includes(word)) {
+        dp[i] = true;
+        break;
+      }
     }
   }
+
+  return dp[s.length];
 }
 
-console.log(findMissingOddNumber([5, 7, 9, 11, 15, 17]));
+// Example usage
+const s = "leetcode";
+const wordDict = ["leet", "code"];
+const canSegment = wordBreak(s, wordDict);
+console.log(canSegment);
